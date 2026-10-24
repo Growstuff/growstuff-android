@@ -74,7 +74,12 @@ fun TopBar(
                         .clickable(onClickLabel = stringResource(R.string.back), role = Role.Button, onClick = onBack),
                     contentAlignment = Alignment.Center,
                 ) {
-                    Icon(GrowstuffIcons.Back, stringResource(R.string.back), Modifier.size(28.dp), tint = GrowstuffColors.White)
+                    Icon(
+                        GrowstuffIcons.Back,
+                        stringResource(R.string.back),
+                        Modifier.size(28.dp),
+                        tint = GrowstuffColors.White,
+                    )
                 }
                 VerticalRule()
             }
@@ -153,12 +158,13 @@ fun AreaRow(
     iconTint: Color = GrowstuffColors.White,
     extra: @Composable () -> Unit = {},
 ) {
+    val select = onClick?.let { Modifier.selectable(selected, role = Role.Button, onClick = it) } ?: Modifier
     Row(
         modifier
             .fillMaxWidth()
             .height(IntrinsicSize.Min)
             .background(GrowstuffColors.White)
-            .then(if (onClick != null) Modifier.selectable(selected, role = Role.Button, onClick = onClick) else Modifier),
+            .then(select),
     ) {
         Box(
             Modifier.width(iconBlockWidth).fillMaxHeight().background(iconBackground),

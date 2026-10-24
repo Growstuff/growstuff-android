@@ -25,7 +25,8 @@ object GrowstuffIcons {
         "M6 11h12a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z",
         "M8 11V8a4 4 0 0 1 8 0v3",
     )
-    val Sprout = stroke("sprout", 1.8f, "M12 19v-8M12 11c0-4-3-6-7-6 0 4 3 6 7 6zM12 13c0-3 2-5 6-5 0 3-2 5-6 5zM3 19.5h18")
+    val Sprout =
+        stroke("sprout", 1.8f, "M12 19v-8M12 11c0-4-3-6-7-6 0 4 3 6 7 6zM12 13c0-3 2-5 6-5 0 3-2 5-6 5zM3 19.5h18")
     val Friends = stroke(
         "friends",
         1.8f,
@@ -34,7 +35,13 @@ object GrowstuffIcons {
         circle(17.2f, 9f, 2.6f),
         "M16.4 13.9c2.9 0 4.6 1.9 4.6 5.1",
     )
-    val Jobs = stroke("jobs", 1.8f, "M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z", "M8 12.2l3 3 5-6.4")
+    val Jobs =
+        stroke(
+            "jobs",
+            1.8f,
+            "M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z",
+            "M8 12.2l3 3 5-6.4",
+        )
     val Resting = stroke("resting", 1.8f, "M3 17h18M5 21h14M9 14c0-1.4 1.3-2.5 3-2.5s3 1.1 3 2.5M12 11.5V9")
     val Idea = stroke(
         "idea",
@@ -45,7 +52,8 @@ object GrowstuffIcons {
     val Tick = stroke("tick", 3.4f, "M5 12.5l5 5L19 7")
     val SignOut = stroke("sign-out", 2.2f, "M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9")
 
-    private fun circle(cx: Float, cy: Float, r: Float) = "M${cx - r} ${cy}a$r $r 0 1 0 ${2 * r} 0a$r $r 0 1 0 ${-2 * r} 0z"
+    private fun circle(cx: Float, cy: Float, r: Float) =
+        "M${cx - r} ${cy}a$r $r 0 1 0 ${2 * r} 0a$r $r 0 1 0 ${-2 * r} 0z"
 
     private fun stroke(name: String, width: Float, vararg paths: String): ImageVector =
         ImageVector.Builder(name, 24.dp, 24.dp, 24f, 24f).apply {
