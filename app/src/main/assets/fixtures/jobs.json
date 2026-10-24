@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "type": "jobs", "id": "1",
+      "attributes": { "name": "Fix the hose tap", "due_date": "2026-10-20", "finished": false, "finished_at": null, "jobbable_type": null, "jobbable_id": null },
+      "relationships": { "garden": { "data": null } }
+    },
+    {
+      "type": "jobs", "id": "2",
+      "attributes": { "name": "Plant out the sunflowers", "due_date": "2026-10-24", "finished": false, "finished_at": null, "jobbable_type": "Planting", "jobbable_id": 11 },
+      "relationships": { "garden": { "data": { "type": "gardens", "id": "1" } } }
+    },
+    {
+      "type": "jobs", "id": "3",
+      "attributes": { "name": "Sharpen the secateurs", "due_date": "2026-10-24", "finished": false, "finished_at": null, "jobbable_type": null, "jobbable_id": null },
+      "relationships": { "garden": { "data": null } }
+    },
+    {
+      "type": "jobs", "id": "4",
+      "attributes": { "name": "Harvest the carrots", "due_date": "2026-10-25", "finished": false, "finished_at": null, "jobbable_type": "Planting", "jobbable_id": 12 },
+      "relationships": { "garden": { "data": { "type": "gardens", "id": "1" } } }
+    },
+    {
+      "type": "jobs", "id": "5",
+      "attributes": { "name": "Order more compost", "due_date": null, "finished": false, "finished_at": null, "jobbable_type": null, "jobbable_id": null },
+      "relationships": { "garden": { "data": null } }
+    },
+    {
+      "type": "jobs", "id": "6",
+      "attributes": { "name": "Net the strawberries", "due_date": "2026-10-23", "finished": true, "finished_at": "2026-10-23T09:12:00Z", "jobbable_type": "Garden", "jobbable_id": 1 },
+      "relationships": { "garden": { "data": { "type": "gardens", "id": "1" } } }
+    },
+    {
+      "type": "jobs", "id": "7",
+      "attributes": { "name": "Sow the broad beans", "due_date": "2026-10-21", "finished": true, "finished_at": "2026-10-21T16:40:00Z", "jobbable_type": "Seed", "jobbable_id": 41 },
+      "relationships": { "garden": { "data": null } }
+    },
+    {
+      "type": "jobs", "id": "8",
+      "attributes": { "name": "Order seeds", "due_date": null, "finished": true, "finished_at": "2026-10-12T20:05:00Z", "jobbable_type": null, "jobbable_id": null },
+      "relationships": { "garden": { "data": null } }
+    }
+  ],
+  "included": [
+    { "type": "gardens", "id": "1", "attributes": { "name": "Bed 2, the sunny one" } },
+    { "type": "plantings", "id": "11", "attributes": { "crop_name": "sunflower" } },
+    { "type": "plantings", "id": "12", "attributes": { "crop_name": "carrot" } },
+    { "type": "seeds", "id": "41", "attributes": { "crop_name": "broad bean" } }
+  ]
+}

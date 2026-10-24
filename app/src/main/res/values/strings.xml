@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Growstuff</string>
+    <string name="back">Back</string>
+
+    <!-- Sign in -->
+    <string name="sign_in_title">Grow food together.</string>
+    <string name="sign_in_body">Sign in to see your gardens, your jobs to do, and the gardeners around you.</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account">Create an account</string>
+    <string name="sign_in_password_note">You sign in on growstuff.org, in your browser. This app never sees your password.</string>
+    <string name="privacy">Privacy</string>
+    <string name="open_source">Open source</string>
+
+    <!-- Home -->
+    <string name="account_label">%1$s, your account</string>
+    <string name="hello">Hello, %1$s.</string>
+    <string name="hello_body">What shall we get our hands dirty with?</string>
+    <string name="my_gardens">My gardens</string>
+    <string name="my_gardens_body">Your beds, what you have planted, and your harvests.</string>
+    <string name="my_friends">My friends</string>
+    <string name="my_friends_body">Friends and neighbours, and what they have been growing.</string>
+    <string name="my_jobs">My jobs</string>
+    <string name="my_jobs_body">What needs doing in the garden.</string>
+    <string name="ideas_for_you">Ideas for you</string>
+    <string name="sign_out">Sign out</string>
+    <string name="pick_an_area">Pick something on the left to get started.</string>
+
+    <!-- Friends -->
+    <string name="friends_coming">Coming soon.</string>
+    <string name="friends_coming_body">The seeds are in. Friends and neighbours will sprout here in a later version.</string>
+
+    <!-- Jobs -->
+    <string name="jobs_to_do">To do</string>
+    <string name="jobs_done">Done</string>
+    <string name="jobs_tab_label">%1$s, %2$d</string>
+    <plurals name="job_ideas">
+        <item quantity="one">We have %d suggested job for you this week</item>
+        <item quantity="other">We have %d suggested jobs for you this week</item>
+    </plurals>
+    <string name="see_ideas">See ideas</string>
+    <string name="jobs_overdue">Overdue</string>
+    <string name="jobs_today">Today</string>
+    <string name="jobs_this_week">This week</string>
+    <string name="jobs_later">Later</string>
+    <string name="jobs_some_day">Some day</string>
+    <string name="jobs_some_day_note">no day yet</string>
+    <string name="jobs_done_note">look what you grew</string>
+    <string name="jobs_nothing_left">Nothing left to do.</string>
+    <string name="jobs_nothing_left_body">The snail is impressed, and slightly jealous.</string>
+    <string name="jobs_nothing_done">Nothing crossed off yet.</string>
+    <string name="jobs_nothing_done_body">The snail is taking its time too.</string>
+    <string name="cross_off">Cross off: %1$s</string>
+    <string name="put_back">Put back on the list: %1$s</string>
+    <string name="crossed_off">Crossed off “%1$s”. The snail is impressed.</string>
+    <string name="undo">Undo</string>
+    <string name="add_a_job">Add a job</string>
+    <string name="add">Add</string>
+    <string name="due_today">Today</string>
+    <string name="done_on">Done %1$s</string>
+    <string name="link_planting">Planting</string>
+    <string name="link_garden">Garden</string>
+    <string name="link_seeds">Seeds</string>
+    <string name="link_in_garden">in %1$s</string>
+
+    <!-- Gardens -->
+    <string name="last_watered">Last watered %1$s. Pull down to water again.</string>
+    <string name="just_now">just now</string>
+    <plurals name="minutes_ago">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+    <plurals name="growing">
+        <item quantity="one">%d growing</item>
+        <item quantity="other">%d growing</item>
+    </plurals>
+    <plurals name="ready_to_harvest">
+        <item quantity="one">%d ready to harvest</item>
+        <item quantity="other">%d ready to harvest</item>
+    </plurals>
+    <string name="soil_resting">Nothing growing. The soil is resting.</string>
+    <string name="add_a_garden">Add a garden</string>
+    <string name="square_metres">%1$s m²</string>
+    <string name="square_feet">%1$s ft²</string>
+</resources>

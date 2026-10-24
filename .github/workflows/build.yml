@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: gradle/actions/wrapper-validation@v6
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: gradle/actions/setup-gradle@v6
+      - name: Lint, test and build both flavours
+        run: ./gradlew ktlintCheck lintFossDebug lintPlayDebug testFossDebugUnitTest testPlayDebugUnitTest assembleDebug
+      - name: Upload debug builds
+        uses: actions/upload-artifact@v7
+        with:
+          name: debug-apks
+          path: app/build/outputs/apk/*/debug/*.apk
+          retention-days: 14
+      - name: Upload reports
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: reports
+          path: app/build/reports/

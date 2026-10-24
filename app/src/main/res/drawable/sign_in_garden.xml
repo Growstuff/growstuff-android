@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: AGPL-3.0-or-later -->
+<!-- Two sprouts and the snail, on a strip of soil. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="382dp"
+    android:height="170dp"
+    android:viewportWidth="382"
+    android:viewportHeight="170">
+    <path android:pathData="M-4,134h390v40h-390z" android:fillColor="#6D4C41" android:strokeColor="#000000" android:strokeWidth="4" />
+    <path android:pathData="M44,136L44,98" android:strokeColor="#000000" android:strokeWidth="4" android:strokeLineCap="round" />
+    <path android:pathData="M44,112C28,112 20,102 20,88C36,88 44,98 44,112Z" android:fillColor="#57803C" android:strokeColor="#000000" android:strokeWidth="4" android:strokeLineJoin="round" />
+    <path android:pathData="M44,104C60,104 68,94 68,80C52,80 44,90 44,104Z" android:fillColor="#57803C" android:strokeColor="#000000" android:strokeWidth="4" android:strokeLineJoin="round" />
+    <path android:pathData="M334,136L334,78" android:strokeColor="#000000" android:strokeWidth="4" android:strokeLineCap="round" />
+    <path android:pathData="M334,96C314,96 302,82 302,62C324,62 334,76 334,96Z" android:fillColor="#57803C" android:strokeColor="#000000" android:strokeWidth="4" android:strokeLineJoin="round" />
+    <path android:pathData="M334,84C354,84 366,70 366,50C344,50 334,64 334,84Z" android:fillColor="#57803C" android:strokeColor="#000000" android:strokeWidth="4" android:strokeLineJoin="round" />
+    <group android:translateX="104" android:translateY="38" android:scaleX="2.15" android:scaleY="2.15">
+        <path android:pathData="M4,42C2,33 12,31 22,33L58,33C65,33 69,38 66,42Z" android:fillColor="#F4F2EF" android:strokeColor="#000000" android:strokeWidth="1.9" android:strokeLineJoin="round" />
+        <path android:pathData="M26,22a16,16 0,1 0,32 0a16,16 0,1 0,-32 0z" android:fillColor="#A4C98C" android:strokeColor="#000000" android:strokeWidth="1.9" />
+        <path android:pathData="M42,22c3,-1 6,1 5,4s-6,6 -11,3s-4,-11 3,-14s14,1 14,9" android:strokeColor="#000000" android:strokeWidth="1.9" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M10,33L7,20M17,33L17,19" android:strokeColor="#000000" android:strokeWidth="1.9" android:strokeLineCap="round" />
+        <path android:pathData="M4.4,19a2.6,2.6 0,1 0,5.2 0a2.6,2.6 0,1 0,-5.2 0z" android:fillColor="#000000" />
+        <path android:pathData="M14.4,18a2.6,2.6 0,1 0,5.2 0a2.6,2.6 0,1 0,-5.2 0z" android:fillColor="#000000" />
+    </group>
+</vector>
