@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "type": "gardens",
+      "id": "1",
+      "attributes": { "name": "Bed 2, the sunny one", "location": "Backyard", "area": 6, "area_unit": "square metre" },
+      "relationships": {
+        "owner": { "data": { "type": "members", "id": "1" } },
+        "plantings": { "data": [{ "type": "plantings", "id": "11" }, { "type": "plantings", "id": "12" }, { "type": "plantings", "id": "13" }] }
+      }
+    },
+    {
+      "type": "gardens",
+      "id": "2",
+      "attributes": { "name": "Bed 1, the herb bed", "location": "Backyard", "area": 3, "area_unit": "square metre" },
+      "relationships": {
+        "owner": { "data": { "type": "members", "id": "1" } },
+        "plantings": { "data": [{ "type": "plantings", "id": "21" }, { "type": "plantings", "id": "22" }, { "type": "plantings", "id": "23" }, { "type": "plantings", "id": "24" }, { "type": "plantings", "id": "25" }] }
+      }
+    },
+    {
+      "type": "gardens",
+      "id": "3",
+      "attributes": { "name": "Bed 3, by the fence", "location": "Backyard", "area": 4, "area_unit": "square metre" },
+      "relationships": {
+        "owner": { "data": { "type": "members", "id": "1" } },
+        "plantings": { "data": [{ "type": "plantings", "id": "31" }] }
+      }
+    }
+  ],
+  "included": [
+    { "type": "plantings", "id": "11", "attributes": { "crop_name": "sunflower", "planted_at": "2026-09-20", "finished": false, "first_harvest_date": "2027-01-15" } },
+    { "type": "plantings", "id": "12", "attributes": { "crop_name": "carrot", "planted_at": "2026-08-01", "finished": false, "first_harvest_date": "2026-10-25" } },
+    { "type": "plantings", "id": "13", "attributes": { "crop_name": "strawberry", "planted_at": "2026-06-10", "finished": false, "first_harvest_date": "2026-10-18" } },
+    { "type": "plantings", "id": "21", "attributes": { "crop_name": "basil", "planted_at": "2026-09-01", "finished": false, "first_harvest_date": "2026-11-10" } },
+    { "type": "plantings", "id": "22", "attributes": { "crop_name": "parsley", "planted_at": "2026-09-01", "finished": false, "first_harvest_date": "2026-11-20" } },
+    { "type": "plantings", "id": "23", "attributes": { "crop_name": "thyme", "planted_at": "2026-04-01", "finished": false, "first_harvest_date": null } },
+    { "type": "plantings", "id": "24", "attributes": { "crop_name": "mint", "planted_at": "2026-04-01", "finished": false, "first_harvest_date": null } },
+    { "type": "plantings", "id": "25", "attributes": { "crop_name": "coriander", "planted_at": "2026-03-01", "finished": true, "first_harvest_date": "2026-04-20" } },
+    { "type": "plantings", "id": "31", "attributes": { "crop_name": "potato", "planted_at": "2026-03-01", "finished": true, "first_harvest_date": "2026-06-20" } }
+  ]
+}
