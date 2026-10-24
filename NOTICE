@@ -1,0 +1,15 @@
+Growstuff for Android
+Copyright the Growstuff contributors
+Licensed under the GNU Affero General Public License v3.0 or later. See LICENSE.
+
+This app includes the following third-party material.
+
+Fonts, under the SIL Open Font License 1.1 (text in licenses/):
+- Raleway, copyright 2010 The Raleway Project Authors
+- Modak, copyright 2015 Ek Type
+
+Libraries, under the Apache License 2.0:
+- AndroidX and Jetpack Compose, copyright The Android Open Source Project
+- Kotlin, kotlinx.coroutines and kotlinx.serialization, copyright JetBrains s.r.o. and Kotlin contributors
+
+Test libraries (not shipped): JUnit 4, under the Eclipse Public License 1.0.

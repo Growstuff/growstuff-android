@@ -33,3 +33,26 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Signing: release keys and their passwords must never be committed
+keystore.properties
+signing.properties
+*.p12
+*.pk8
+*.pem
+
+# Google Play upload credentials (service account keys)
+play-service-account*.json
+service-account*.json
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# Kotlin and Gradle caches
+.kotlin/
+/app/release/
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+*.swp
